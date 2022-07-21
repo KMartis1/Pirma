@@ -1,0 +1,129 @@
+body {
+    font-size: 0;
+    background-color: rgb(255, 211, 211);
+}
+
+p{
+    font-size: 16px;
+}
+
+header img {
+    padding: 5px 0 5px 16px;
+    display: inline-block;
+}
+
+header nav a{
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: right;
+    }
+
+header nav{
+    font-size: 16px;
+    padding: 10px 10px;
+    /* display: inline-block; */
+    vertical-align: top;
+    float: right;
+}
+
+main section article h1{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+main section article:nth-child(1){
+    font-size: 16px;
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 16px;
+    margin: 0;
+}
+
+li{
+    font-size: 16px;
+}
+
+header{
+    background-color: rgb(205, 205, 205);
+    margin: 30px 0;
+    border-style: outset;
+    border-width: 6px;
+    box-shadow: 10px 10px 5px lightgray;
+
+}
+
+article{
+    background-color: rgb(205, 205, 205);
+    margin: 30px 0;
+    border-style: outset;
+    border-width: 6px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+main article:nth-child(2) div:nth-child(1){
+    /* background-color: rgb(0, 238, 255); */
+    display: inline-block;
+    width: 55%;
+    padding: 0 0 0 32px;
+}
+
+main article:nth-child(2) div:nth-child(2){
+    text-align: center;
+    /* background-color: red; */
+    padding: 30px 0 0 0;
+    display: inline-block;
+    width: 35%;
+}
+
+/* ++++++ */
+
+main article:nth-child(3) div:nth-child(1){
+    /* background-color: rgb(0, 238, 255); */
+    text-align: center;
+    padding: 30px 0 0px 0;
+    margin: 0px 0 40px 0;
+    display: inline-block;
+    width: 45%;
+    position: relative;
+}
+
+main article:nth-child(3) div:nth-child(2){
+    display: inline-block;
+    width: 55%;
+    padding: 0 0 0 0;
+    margin: 20px 0 20px 0;
+    /* background-color: red; */
+}
+
+/* +++++++ */
+
+footer{
+    background-color: rgb(205, 205, 205);
+    margin: 30px 0;
+    border-style: outset;
+    border-width: 6px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+footer div:nth-child(1){
+    text-align: center;
+}
+
+footer div:nth-child(1) h4 {
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: red; */
+}
+
+footer div:nth-child(2){
+    text-align: center;
+    padding: 20px 0;
+}
